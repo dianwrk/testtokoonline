@@ -9,7 +9,7 @@ console.log("App started...");
 // ============================================
 async function loadProducts() {
   try {
-    const response = await fetch(API_URl);
+    const response = await fetch(API_URL);
     const data = await response.json();
     productsData = data;
     renderProducts(data); // Memanggil fungsi Siswa 5
