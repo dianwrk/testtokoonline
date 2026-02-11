@@ -6,10 +6,24 @@
     <title>Toko Modern</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=poppins:wght@300;400;600;700&display=swap" >  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=poppins:wght@300;400;600;700&display=swap" >
+            
   </head>
   <body class="bg-gray-50 font-sans text-gray-800">
-    <div id="header-area"></div>
+    <nav class="bg-gray-600 text-white shadow-lg sticky top-0 z-50">
+            <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <span class="font-bold text-xl tracking-wide">Toko Online</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="hover:text-yellow-400 transition">Beranda</a>
+                    <a href="#prodi" class="hover:text-yellow-400 transition">Produk</a>
+                    <a href="login.php" class="border border-yellow-400 text-yellow-400 px-4 py-1 rounded-full hover:bg-yellow-400 hover:text-indigo-900 transition">
+                        <i class="fas fa-user-lock mr-2"></i>Masuk
+                    </a>
+                </div>
+            </div>
+        </nav>
 
     <header id="home" class="hero-bg h-screen flex items-center justify-center relative">
             <div class="absolute inset-0 bg-indigo-600 px-4 z-10 "></div>
